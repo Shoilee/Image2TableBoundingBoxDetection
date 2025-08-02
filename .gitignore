@@ -1,0 +1,5 @@
+cocoapi
+data
+visualization_*
+models
+*.pyc
