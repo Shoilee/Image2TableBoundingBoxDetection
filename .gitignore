@@ -1,5 +1,8 @@
 cocoapi/
 data/
 visualization_*/
-models/
+model/
 *.pyc
+*/.DS_Store
+.DS_Store
+input_images/*
