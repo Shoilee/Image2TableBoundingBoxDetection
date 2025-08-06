@@ -6,3 +6,4 @@ model/
 */.DS_Store
 .DS_Store
 input_images/*
+cocoapi/LuaAPI cocoapi/MatlabAPI cocoapi/PythonAPI cocoapi/README.txt cocoapi/common cocoapi/license.txt cocoapi/results
