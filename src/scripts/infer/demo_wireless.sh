@@ -1,6 +1,7 @@
 python demo.py ctdet_mid \
         --dataset table_mid \
         --demo ../input_images/wireless \
+        --output_dir ../example/ \
         --demo_name demo_wireless \
         --debug 1 \
         --arch resfpnhalf_18  \
