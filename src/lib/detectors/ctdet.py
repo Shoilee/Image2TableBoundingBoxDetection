@@ -151,9 +151,9 @@ class CtdetDetector(BaseDetector):
     
     count = 0
  
-    fc = open(self.opt.output_dir + self.opt.demo_name +'/center/'+image_name+'.txt','w') #bounding boxes saved
-    fv = open(self.opt.output_dir + self.opt.demo_name +'/corner/'+image_name+'.txt','w')
-    fl = open(self.opt.output_dir + self.opt.demo_name +'/logi/'+image_name+'.txt','w') #logic axis saved 
+    fc = open(self.opt.output_dir +'center/'+image_name+'.txt','+w') #bounding boxes saved
+    fv = open(self.opt.output_dir +'corner/'+image_name+'.txt','+w')
+    fl = open(self.opt.output_dir +'logi/'+image_name+'.txt','+w') #logic axis saved 
     for j in range(1, self.num_classes + 1):
       k = 0
       for m in range(len(results[j])):

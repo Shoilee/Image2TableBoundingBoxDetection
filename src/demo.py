@@ -55,9 +55,9 @@ def demo(opt):
     image_names = [opt.demo]
 
   if not os.path.exists(opt.output_dir):
-      os.makedirs(opt.output_dir +'/center/')
-      os.makedirs(opt.output_dir +'/corner/')
-      os.makedirs(opt.output_dir +'/logi/')
+      os.makedirs(opt.output_dir +'center/')
+      os.makedirs(opt.output_dir +'corner/')
+      os.makedirs(opt.output_dir +'logi/')
 
   if not os.path.exists(opt.demo_dir):
     os.makedirs(opt.demo_dir)
