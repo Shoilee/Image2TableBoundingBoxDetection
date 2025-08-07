@@ -1,7 +1,7 @@
 python demo.py ctdet_mid \
         --dataset table_mid \
-        --demo ../input_images/wireless \
-        --output_dir ../example/ \
+        --demo ../../data/images \
+        --output_dir ../../data/tables/cells/ \
         --demo_name demo_wireless \
         --debug 1 \
         --arch resfpnhalf_18  \
@@ -18,6 +18,6 @@ python demo.py ctdet_mid \
         --vis_thresh 0.2 \
         --scores_thresh 0.2 \
         --nms \
-        --demo_dir ../visualization_wireless/ \
+        --demo_dir ../../data/tables/vis/ \
         --load_model ../model/ckpt_wireless/model_best.pth \
         --load_processor ../model/ckpt_wireless/processor_best.pth
